@@ -32,7 +32,9 @@ function goToCards() {
         card.innerHTML = `
     <img src="${item.img}" alt="${item.label}">
     <div style="color:black;font-size:18px;margin-top:6px;">
-      ${item.amount} ${item.label}
+      ${item.amount}
+
+    
     </div>
   `;
 
